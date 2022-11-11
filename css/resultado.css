@@ -12,10 +12,11 @@
 
 .resultados {
     position: absolute;
-    top: 50px;
-    left: 13%;
+    z-index: 2;
     margin-top: 8rem;
     text-decoration: none;
+    top: 70%;
+    left: 75%;
     padding-left: 30px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
