@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url(./css/background__geral.css);
+@import url(./css/corpo__urna.css);
+@import url(./css/totals.css);
+@import url(./css/digitacao.css);
+@import url(./css/botoes.css);
+@import url(./css/visor.css);
+@import url(./css/resultado.css);
+
+:root {
+    --fundo: #44c2ce;
+    --verde-listra: #5ea547;
+    --amarelo-listra: #ffd946;
+    --verde-botao: #00bd69;
+    --branco-botao: #fafafa;
+    --vermelho-botao: #ff9b4d;
+    --branco-urna: #fffffd;
+    --cinza-tela: #f7f7f7;
+    --cinza-borda-tela: #acacac;
+    --cinza-topo-urna: #eeeeee;
+    --cinza-logo: #e7e7e7;
+    --cinza-dig: #3f3534;
+    --preto-dig: #131313;
+}
+
+
+
+.inv {
+    display: none;
+}

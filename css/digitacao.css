@@ -1,0 +1,24 @@
+.digitacao {
+    background-color: var(--cinza-dig);
+    width: 100%;
+    border-radius: 1%;
+}
+
+.justica {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cinza-tela);
+}
+
+.img__justica {
+    width: 4vw;
+}
+
+.title__justica {
+    padding: 0 30px;
+    color: var(--preto-dig);
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}

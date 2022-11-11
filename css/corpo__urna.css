@@ -1,0 +1,35 @@
+
+.topo__urna {
+    position: absolute;
+    z-index: 1;
+    top: 9.1%;
+    left: 19%;
+    width: 50vw;
+    height: 0;
+    border-bottom: 6vmin solid var(--cinza-topo-urna);
+    border-left: 8vmax solid transparent;
+    border-right: 8vmax solid transparent;
+}
+
+.frente__urna {
+    position: absolute;
+    z-index: 2;
+    width: 66vw;
+    height: 0;
+    top: 15%;
+    left: 15%;
+    border-bottom: 72vmin solid var(--branco-urna);
+    border-left: 4vmax solid transparent;
+    border-right: 4vmax solid transparent; 
+    border-radius: 40px;
+}
+.sombra {
+    position: absolute;
+    z-index: 1;
+    width: 70vw;
+    height: 1vw;
+    top: 86%;
+    left: 17%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+}

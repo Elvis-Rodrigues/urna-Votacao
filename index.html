@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Urna Eletrônica</title>
+</head>
+<body>
+    <!--Background-->
+    <section class="together">
+        <div class="listra__amarela1"></div>
+        <div class="listra__verde1"></div>
+        <div class="listra__amarela2"></div>
+        <div class="listra__verde2"></div>
+        <div class="listra__amarela3"></div>
+        <div class="listra__verde3"></div>
+    </section>
+    <div class="papel__resultado">
+        <a href="./resultado.html" class="resultados">Resultado</a>
+    </div>
+    <!--Corpo da urna-->
+    <div class="topo__urna"></div>
+    <div class="frente__urna"></div>
+    <div class="sombra"></div>
+    <!--tela-->
+    <section class="totals"></section>
+    <section class="totals0"></section>
+    <div class="Visor">
+        <h2 class="visu__presi">PRESIDENTE</h2>
+        <input class="num1__resultado" size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly"></input>
+        <input class="num2__resultado" size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly"></input>
+        <p class="voto__confirmado inv">FIM</p>
+    </div>
+    <!--Digitação-->
+    <section class="totals1">
+        <div class="digitacao">
+            <div class="justica">
+                <img class="img__justica" src="./img/395px-Coat_of_arms_of_Brazil_(grayscale).svg.png" alt="Logo da Justiça Eleitoral">
+                <h2 class="title__justica">Justiça</br>Eleitoral</h2>
+            </div>
+            <div class="botoes">
+                <div class="numeros num">
+                    <button class="num1 num__style" onclick="inserir(1)">1</button>
+                    <button class="num2 num__style" onclick="inserir(2)">2</button>
+                    <button class="num3 num__style" onclick="inserir(3)">3</button>
+                    <button class="num4 num__style" onclick="inserir(4)">4</button>
+                    <button class="num5 num__style" onclick="inserir(5)">5</button>
+                    <button class="num6 num__style" onclick="inserir(6)">6</button>
+                    <button class="num7 num__style" onclick="inserir(7)">7</button>
+                    <button class="num8 num__style" onclick="inserir(8)">8</button>
+                    <button class="num9 num__style" onclick="inserir(9)">9</button>
+                    <button class="num0 num__style" onclick="inserir(0)">0</button>
+                </div>
+                <div class="editores">
+                    <button class="branco" onclick="branco()">BRANCO</button>
+                    <button class="corrigir" onclick="corrigir()">CORRIGIR</button>
+                    <button class="confirmar" onclick="votar()">CONFIRMAR</button>
+                    <audio src="./props/Tema da Vitória (Ayrton Senna) - Completo.mp3" class="music inv"></audio>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

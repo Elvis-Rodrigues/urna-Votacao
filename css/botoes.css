@@ -1,0 +1,140 @@
+.numeros {
+    display: grid;
+    width: 90%;
+    height: 100%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.num {
+    grid-template-areas: 
+    "num1 num2 num3"
+    "num4 num5 num6"
+    "num7 num8 num9"
+    ;
+    gap: 15px;
+}
+
+.num__style {
+    width: 5vmax;
+    height: 6vmin;
+    font-size: 1.6rem;
+    text-align: initial;
+    border-radius: 5px;
+    color: var(--branco-botao);
+    background-color: var(--preto-dig);
+    cursor: pointer;
+    box-shadow: -1px 2px #9b9b9b;
+}
+
+.num__style:active {
+    box-shadow: none;
+    width: 4.8vmax;
+}
+
+.num1 {
+    grid-area: num1;
+    
+}
+
+.num2 {
+    grid-area: num2;
+}
+
+.num3 {
+    grid-area: num3;
+}
+
+.num4 {
+    grid-area: num4;
+}
+
+.num5 {
+    grid-area: num5;
+}
+
+.num6 {
+    grid-area: num6;
+}
+
+.num7 {
+    grid-area: num7;
+}
+
+.num8 {
+    grid-area: num8;
+}
+
+.num9 {
+    grid-area: num9;
+}
+
+.num0 {
+    position: relative;
+    left: 120%;
+}
+
+
+.editores {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 5%;
+}
+
+.branco {
+    width: 11vmin;
+    height: 3vmax;
+    font-family: 'Roboto', sans-serif;
+    color: #7a7979;
+    background-color: var(--branco-botao);
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: -2px 2px #9b9b9b;
+}
+
+.branco:active {
+    box-shadow: none;
+    width: 10.5vmin;
+    margin: 0 5px 0 0;
+}
+
+.corrigir {
+    width: 11vmin;
+    height: 3vmax;
+    font-family: 'Roboto', sans-serif;
+    color: #2e1400;
+    background-color: var(--vermelho-botao);
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: -2px 2px #f78834;
+}
+
+.corrigir:active {
+    box-shadow: none;
+    width: 10.5vmin;
+    margin: 0 4.8px 0 0;
+}
+
+.confirmar {
+    width: 11vmin;
+    height: 4.5vmax;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #01703e;
+    padding: 1%;
+    background-color: var(--verde-botao);
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: -2px 2px #01a55b;
+}
+
+.confirmar:active {
+    box-shadow: none;
+    width: 10.5vmin;
+    margin: 0 4.8px 0 0;
+}
+

@@ -1,0 +1,71 @@
+body {
+    background-color: var(--fundo);
+}
+
+.together {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.listra__amarela1 {
+    position: absolute;
+    top: 0%;
+    left: 37%;
+    width: 12%;
+    height: 0vh;
+    border-bottom: 43vmin solid var(--amarelo-listra);
+    border-left: 1vmax solid transparent;
+}
+
+.listra__verde1 {
+    position: absolute;
+    top: 0%;
+    right: 37%;
+    width: 12%;
+    height: 0vh;
+    border-bottom: 43vmin solid var(--verde-listra);
+    border-right: 1vmax solid transparent;
+}
+
+.listra__amarela2 {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 11%;
+    height: 0vh;
+    border-bottom: 50vmin solid var(--amarelo-listra);
+    border-left: 39vmax solid transparent;
+}
+
+
+.listra__verde2 {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    width: 11%;
+    height: 0vh;
+    border-bottom: 50vmin solid var(--verde-listra);
+    border-right: 39vmax solid transparent;
+}
+
+.listra__amarela3 {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 50%;
+    height: 0;
+    border-bottom: 10.1vmin solid var(--amarelo-listra);;
+    
+}
+
+.listra__verde3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 0vh;
+    border-bottom: 10.2vmin solid var(--verde-listra);
+}
