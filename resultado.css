@@ -1,0 +1,22 @@
+.papel__resultado {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 75%;
+    width: 8vmax;
+    height: 25vmin;
+    background-color: yellow;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 15% 100%);
+    
+}
+
+.resultados {
+    position: absolute;
+    margin-top: 8rem;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--preto-dig);
+}
